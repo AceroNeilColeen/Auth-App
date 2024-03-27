@@ -47,15 +47,15 @@ function SignupForm() {
   return (
     <div className="signup-container" style={{ borderColor: "#5AB1FF" }}>
       <div className="logo-container">
-        <a href="#">
+        {/* <a href="#">
           <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
+        </a> */}
         <a href="#">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
       {/* Form */}
-      <h2 style={{ color: "#5AB1FF" }}>Rehistro</h2>
+      <h2 style={{ color: "#5AB1FF" }}>Sign Up</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="form-group email">
           <label htmlFor="email" className="text-primary">
@@ -100,7 +100,7 @@ function SignupForm() {
         <div className="password-strength">
           Password Strength: {passwordStrength}
         </div>
-        <button type="submit">Sign Up</button>
+        <button type="submit" style={{ fontWeight: "bold" }}>Sign Up</button>
       </form>
     </div>
   );

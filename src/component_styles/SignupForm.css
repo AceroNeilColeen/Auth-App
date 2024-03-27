@@ -2,7 +2,7 @@
   max-width: 500px;
   margin: 40px auto;
   padding: 100px;
-  border: 2px solid #ddd;
+  border: 2px solid #dbd8d8;
   border-radius: 1rem;
   /* background-color: red; */
 }
@@ -18,8 +18,8 @@
   font-size: 1rem;
   line-height: 2;
   color: #fff;
-  background-color: #495057;
-  border: 2px solid #61dafbaa;
+  background-color: black;
+  border: 2px solid #1892A2;
   border-radius: 1rem;
 }
 
@@ -38,7 +38,7 @@ button {
   width: 100%;
   margin-top: 10px;
   border-radius: 15px;
-  border: 2px solid #61dafbaa;
+  border: 2px solid #1892A2;
   cursor: pointer;
   margin: 10px auto;
   font-size: 14px;
@@ -46,8 +46,8 @@ button {
 }
 
 button:hover {
-  background-color: #47a1ed; /* Slightly darker background on hover */
-  border-color: #61dafbaa;
+  background-color: #F3E1D3; /* Slightly darker background on hover */
+  border-color: #fff;
 }
 
 button {
